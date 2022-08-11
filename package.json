@@ -1,0 +1,17 @@
+{
+  "name": "myscript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon script.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@react-native-community/cli": "^8.0.5",
+    "axios": "^0.27.2",
+    "crypto-js": "^4.1.1",
+    "nodemon": "^2.0.19",
+    "react-native-eject": "^0.1.2"
+  }
+}
