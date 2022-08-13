@@ -6,7 +6,7 @@ const readPattern = () => {
   return new Promise(resolve => {
     // fs.readFile('./temp.txt', 'utf8', (err, data) => {
     // fs.readFile('./pattern.txt', 'utf8', (err, data) => {
-    fs.readFile('./last100000.txt', 'utf8', (err, data) => {
+    fs.readFile('./last10000.txt', 'utf8', (err, data) => {
       if (err) {
         console.error(err);
         resolve("");
