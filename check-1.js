@@ -6,7 +6,7 @@ const readPattern = () => {
   return new Promise(resolve => {
     // fs.readFile('./temp.txt', 'utf8', (err, data) => {
     // fs.readFile('./pattern.txt', 'utf8', (err, data) => {
-    fs.readFile('./last10000.txt', 'utf8', (err, data) => {
+    fs.readFile('./last100000.txt', 'utf8', (err, data) => {
       if (err) {
         console.error(err);
         resolve("");
@@ -27,14 +27,14 @@ const checkWinOrLose = (strPattern, t) => {
     return false;
 }
 
-const calc = async () => {
+const calc = async (betWin) => {
   pattern = await readPattern();
   let subPatterns = pattern.split(/10[0]+10[0]+100/g) || []
   let winCount = 0, loseCount = 0;
   let str = "";
 
   for (let i = 0; i < subPatterns.length; i++) {
-    if (checkWinOrLose(subPatterns[i], 36)) {
+    if (checkWinOrLose(subPatterns[i], betWin)) {
       winCount++;
       console.log("1 - ", subPatterns[i].length)
       // str += "1 - " + subPatterns[i].length + "\r\n"
@@ -82,5 +82,10 @@ const findBestT = async () => {
   }  
 }
 
-calc();
+const args = process.argv;
+let winBet = 36;
+if (args.length > 2) {
+  winBet = args[2]
+}
+calc(winBet);
 // findBestT();

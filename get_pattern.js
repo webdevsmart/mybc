@@ -55,7 +55,7 @@ const get_all_bet_data = async (init_game_id, count) => {
     prevHash = hash;
   }
 
-  fs.writeFile("./last10000.txt", logs, function (err) {
+  fs.writeFile("./last100000.txt", logs, function (err) {
     if (err) {
       return console.log(err);
     }
@@ -93,5 +93,5 @@ const getLastGameID = async () => {
 }
 
 getLastGameID().then(res => {
-  get_all_bet_data(game_id, 10000);
+  get_all_bet_data(game_id, 100000);
 })
