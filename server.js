@@ -216,16 +216,16 @@ const getPastResults = async (init_game_id, count = 1) => {
                     last_1000x_dist.push({gid, bust, dist})
                     max_1000x_dist = Math.max(max_1000x_dist, dist)
                 }
-                if (bust >= 1000) {
+                if (bust >= 10000) {
                     last_10000x += 1
                     let dist = 0
                     if (last_10000x_dist.length > 0) {
-                        dist = last_10000x_dist[last_1000x_dist.length - 1].gid - gid
+                        dist = last_10000x_dist[last_10000x_dist.length - 1].gid - gid
                     } else {
                         dist = init_game_id - gid
                     }
                     last_10000x_dist.push({gid, bust, dist})
-                    max_10000x_dist = Math.max(max_1000x_dist, dist)
+                    max_10000x_dist = Math.max(max_10000x_dist, dist)
                 }
             }
             console.log('10000x', last_10000x_dist.slice(0, 10))
