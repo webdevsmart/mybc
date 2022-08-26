@@ -17,9 +17,9 @@ const readPattern = () => {
 const checkWinOrLose = (strPattern) => {
   let count = (strPattern.match(/0/g) || []).length;
 
-  let count010 = (strPattern.match(/1[1]+0/g) || []).length;
+  let count101 = (strPattern.match(/1[1]+0/g) || []).length;
 
-  if (count - count010 > 36)
+  if (count - count101 > 36)
     return true;
   else
     return false;
@@ -34,10 +34,10 @@ const calc = async () => {
   for (let i = 0; i < subPatterns.length; i++) {
     if (checkWinOrLose(subPatterns[i])) {
       winCount++;
-      console.log("0 - ", subPatterns[i].length)
+      console.log("1 - ", subPatterns[i].length)
     } else {
       loseCount++;
-      console.log("1 - ", subPatterns[i].length)
+      console.log("0 - ", subPatterns[i].length)
     }
   }
 
