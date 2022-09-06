@@ -27,13 +27,12 @@ const readPattern = () => {
 
 const main = async (balance, startPoint = 0) => {
   var currentBet = config.invalidBetAmount.value;
-  var lastx = ["0", "0", "0", "0", "0"];
+  var lastx = ["0", "0", "0"];
   var i = 0;
   var payout = 0;
   var xxx = 1;
   var max_xxx = 1;
   var laststr = "";
-  var last1str = "";
   pattern = await readPattern();
   var logs = ""
   
@@ -50,14 +49,13 @@ const main = async (balance, startPoint = 0) => {
 
     if (currentBet == config.baseBet.value * xxx) {
       laststr = lastx.join('')
-      last1str = lastx.slice(1, 5).join('')
-      if (laststr == '10001' || last1str == '1001') {
+      if (laststr == '100') {
         balance += currentBet;
         console.log("win! ", balance, ", xxx: ", xxx)
         logs += "win xxx: " + xxx + "\r\n";
         xxx = 1;
         currentBet = config.invalidBetAmount.value;
-      } else if (laststr == '01110' || last1str == '0110') {
+      } else if (laststr == '011') {
         balance += currentBet * 0.96;
         console.log("win! ", balance, ", xxx:", xxx)
         logs += "win xxx: " + xxx + "\r\n";
@@ -71,13 +69,10 @@ const main = async (balance, startPoint = 0) => {
         if (xxx > max_xxx)
           max_xxx = xxx
       }
-
-      // lastx = ["0", "0", "0", "0"];
     }
 
-    laststr = lastx.slice(1, 5).join('');
-    last1str = lastx.slice(2, 5).join('');
-    if (laststr == "1000" || laststr == "0111" || laststr == "100" || laststr == "011") {
+    laststr = lastx.slice(1, 3).join('');
+    if (laststr == "10" || laststr == "01") {
       currentBet = config.baseBet.value * xxx;
     } else {
       currentBet = config.invalidBetAmount.value;
@@ -93,4 +88,4 @@ const main = async (balance, startPoint = 0) => {
   });
 }
 
-main(1000, 990000)
+main(1000)

@@ -1,2 +1,324 @@
-1111011111111111111111111110111111111101110111111111011101111111001111011011100111110111111111111111110101011111011111111110111111111111111111111101111111110111111111111011111011111111101101101011111110111111110110111001011001111100101111111111111010100111101110111111111100010111111111101111110111101011111111110111110101111111110111011001111111110110111101110111111111011111111111111111111111111111001100011111111011101111111111101111111011111111101111101111011001111110101011011100111011110111111111011111011111110111111111011111101100101111111111111111011111101111011101011111011100011110001110111111111111101111111001101Win Count: 515
-Lose Count: 110
+bet start: 4340039, countOf1: 59, countOf0: 41, balance: 1000
+bet failed: 4340161, countOf1: 45, countOf0: 55, currentBet: 10, balance: 936.8000000000002
+bet start: 4341440, countOf1: 41, countOf0: 59, balance: 936.8000000000002
+bet end: 4341453, countOf1: 46, countOf0: 54, currentBet: 20, balance: 1076.8000000000002
+bet start: 4341923, countOf1: 59, countOf0: 41, balance: 1076.8000000000002
+bet failed: 4342110, countOf1: 51, countOf0: 49, currentBet: 10, balance: 1010.3999999999965
+bet start: 4342330, countOf1: 59, countOf0: 41, balance: 1010.3999999999965
+bet end: 4342347, countOf1: 57, countOf0: 43, currentBet: 20, balance: 1140.799999999997
+bet start: 4342370, countOf1: 59, countOf0: 41, balance: 1140.799999999997
+bet end: 4342448, countOf1: 50, countOf0: 50, currentBet: 10, balance: 1203.599999999993
+bet start: 4342798, countOf1: 59, countOf0: 41, balance: 1203.599999999993
+bet failed: 4342959, countOf1: 56, countOf0: 44, currentBet: 10, balance: 1142.3999999999905
+bet start: 4343187, countOf1: 39, countOf0: 61, balance: 1142.3999999999905
+bet failed: 4343462, countOf1: 51, countOf0: 49, currentBet: 20, balance: 1002.3999999999905
+bet start: 4343529, countOf1: 41, countOf0: 59, balance: 1002.3999999999905
+bet failed: 4343688, countOf1: 44, countOf0: 56, currentBet: 40, balance: 722.3999999999905
+bet start: 4343695, countOf1: 41, countOf0: 59, balance: 722.3999999999905
+bet end: 4343736, countOf1: 51, countOf0: 49, currentBet: 80, balance: 1282.3999999999905
+bet start: 4344206, countOf1: 59, countOf0: 41, balance: 1282.3999999999905
+bet end: 4344241, countOf1: 51, countOf0: 49, currentBet: 10, balance: 1343.9999999999886
+bet start: 4344474, countOf1: 41, countOf0: 59, balance: 1343.9999999999886
+bet failed: 4344615, countOf1: 45, countOf0: 55, currentBet: 10, balance: 1273.9999999999886
+bet start: 4345573, countOf1: 59, countOf0: 41, balance: 1273.9999999999886
+bet end: 4345592, countOf1: 53, countOf0: 47, currentBet: 20, balance: 1403.5999999999892
+bet start: 4346004, countOf1: 41, countOf0: 59, balance: 1403.5999999999892
+bet failed: 4346135, countOf1: 44, countOf0: 56, currentBet: 10, balance: 1333.5999999999892
+bet start: 4346639, countOf1: 41, countOf0: 59, balance: 1333.5999999999892
+bet failed: 4346792, countOf1: 54, countOf0: 46, currentBet: 20, balance: 1193.5999999999892
+bet start: 4347088, countOf1: 60, countOf0: 40, balance: 1193.5999999999892
+bet failed: 4347251, countOf1: 48, countOf0: 52, currentBet: 40, balance: 947.1999999999919
+bet start: 4347438, countOf1: 41, countOf0: 59, balance: 947.1999999999919
+bet end: 4347513, countOf1: 49, countOf0: 51, currentBet: 80, balance: 1507.1999999999919
+bet start: 4347613, countOf1: 41, countOf0: 59, balance: 1507.1999999999919
+bet failed: 4347748, countOf1: 49, countOf0: 51, currentBet: 10, balance: 1437.1999999999919
+bet start: 4347932, countOf1: 41, countOf0: 59, balance: 1437.1999999999919
+bet end: 4348063, countOf1: 53, countOf0: 47, currentBet: 20, balance: 1577.1999999999919
+bet start: 4348217, countOf1: 41, countOf0: 59, balance: 1577.1999999999919
+bet end: 4348294, countOf1: 51, countOf0: 49, currentBet: 10, balance: 1647.1999999999919
+bet start: 4348664, countOf1: 41, countOf0: 59, balance: 1647.1999999999919
+bet failed: 4348855, countOf1: 50, countOf0: 50, currentBet: 10, balance: 1577.1999999999919
+bet start: 4350626, countOf1: 59, countOf0: 41, balance: 1577.1999999999919
+bet end: 4350641, countOf1: 54, countOf0: 46, currentBet: 20, balance: 1708.3999999999924
+bet start: 4351430, countOf1: 59, countOf0: 41, balance: 1708.3999999999924
+bet failed: 4351566, countOf1: 45, countOf0: 55, currentBet: 10, balance: 1642.399999999991
+bet start: 4351673, countOf1: 59, countOf0: 41, balance: 1642.399999999991
+bet end: 4351721, countOf1: 48, countOf0: 52, currentBet: 20, balance: 1779.9999999999923
+bet start: 4351943, countOf1: 59, countOf0: 41, balance: 1779.9999999999923
+bet failed: 4352083, countOf1: 49, countOf0: 51, currentBet: 10, balance: 1713.1999999999907
+bet start: 4352189, countOf1: 59, countOf0: 41, balance: 1713.1999999999907
+bet failed: 4352350, countOf1: 54, countOf0: 46, currentBet: 20, balance: 1590.799999999992
+bet start: 4353602, countOf1: 59, countOf0: 41, balance: 1590.799999999992
+bet failed: 4353736, countOf1: 59, countOf0: 41, currentBet: 40, balance: 1328.3999999999933
+bet start: 4353737, countOf1: 59, countOf0: 41, balance: 1328.3999999999933
+bet failed: 4353851, countOf1: 55, countOf0: 45, currentBet: 80, balance: 835.5999999999931
+bet start: 4354370, countOf1: 59, countOf0: 41, balance: 835.5999999999931
+bet end: 4354430, countOf1: 47, countOf0: 53, currentBet: 160, balance: 1897.999999999992
+bet start: 4355195, countOf1: 59, countOf0: 41, balance: 1897.999999999992
+bet failed: 4355350, countOf1: 59, countOf0: 41, currentBet: 10, balance: 1837.9999999999898
+bet start: 4355351, countOf1: 59, countOf0: 41, balance: 1837.9999999999898
+bet end: 4355372, countOf1: 55, countOf0: 45, currentBet: 20, balance: 1966.7999999999904
+bet start: 4356279, countOf1: 41, countOf0: 59, balance: 1966.7999999999904
+bet failed: 4356478, countOf1: 48, countOf0: 52, currentBet: 10, balance: 1896.7999999999904
+bet start: 4356895, countOf1: 41, countOf0: 59, balance: 1896.7999999999904
+bet end: 4357000, countOf1: 55, countOf0: 45, currentBet: 20, balance: 2036.7999999999904
+bet start: 4357564, countOf1: 41, countOf0: 59, balance: 2036.7999999999904
+bet end: 4357585, countOf1: 45, countOf0: 55, currentBet: 10, balance: 2106.79999999999
+bet start: 4358447, countOf1: 41, countOf0: 59, balance: 2106.79999999999
+bet end: 4358472, countOf1: 45, countOf0: 55, currentBet: 10, balance: 2176.79999999999
+bet start: 4358728, countOf1: 41, countOf0: 59, balance: 2176.79999999999
+bet end: 4358767, countOf1: 49, countOf0: 51, currentBet: 10, balance: 2246.79999999999
+bet start: 4359273, countOf1: 59, countOf0: 41, balance: 2246.79999999999
+bet failed: 4359385, countOf1: 52, countOf0: 48, currentBet: 10, balance: 2185.59999999999
+bet start: 4360040, countOf1: 59, countOf0: 41, balance: 2185.59999999999
+bet failed: 4360148, countOf1: 49, countOf0: 51, currentBet: 20, balance: 2064.7999999999897
+bet start: 4360343, countOf1: 38, countOf0: 62, balance: 2064.7999999999897
+bet failed: 4360480, countOf1: 52, countOf0: 48, currentBet: 40, balance: 1784.7999999999897
+bet start: 4360638, countOf1: 41, countOf0: 59, balance: 1784.7999999999897
+bet failed: 4360753, countOf1: 58, countOf0: 42, currentBet: 80, balance: 1224.7999999999897
+bet start: 4361739, countOf1: 40, countOf0: 60, balance: 1224.7999999999897
+bet end: 4361764, countOf1: 42, countOf0: 58, currentBet: 160, balance: 2344.7999999999897
+bet start: 4362249, countOf1: 41, countOf0: 59, balance: 2344.7999999999897
+bet failed: 4362374, countOf1: 53, countOf0: 47, currentBet: 10, balance: 2274.7999999999897
+bet start: 4362694, countOf1: 41, countOf0: 59, balance: 2274.7999999999897
+bet end: 4362725, countOf1: 45, countOf0: 55, currentBet: 20, balance: 2414.7999999999897
+bet start: 4362752, countOf1: 41, countOf0: 59, balance: 2414.7999999999897
+bet failed: 4362879, countOf1: 54, countOf0: 46, currentBet: 10, balance: 2344.7999999999897
+bet start: 4363173, countOf1: 41, countOf0: 59, balance: 2344.7999999999897
+bet failed: 4363288, countOf1: 58, countOf0: 42, currentBet: 20, balance: 2204.7999999999897
+bet start: 4363289, countOf1: 59, countOf0: 41, balance: 2204.7999999999897
+bet end: 4363353, countOf1: 47, countOf0: 53, currentBet: 40, balance: 2467.199999999993
+bet start: 4363375, countOf1: 41, countOf0: 59, balance: 2467.199999999993
+bet end: 4363394, countOf1: 45, countOf0: 55, currentBet: 10, balance: 2537.199999999993
+bet start: 4363884, countOf1: 59, countOf0: 41, balance: 2537.199999999993
+bet end: 4363925, countOf1: 53, countOf0: 47, currentBet: 10, balance: 2597.599999999991
+bet start: 4364115, countOf1: 41, countOf0: 59, balance: 2597.599999999991
+bet end: 4364176, countOf1: 50, countOf0: 50, currentBet: 10, balance: 2667.599999999991
+bet start: 4364240, countOf1: 59, countOf0: 41, balance: 2667.599999999991
+bet end: 4364296, countOf1: 56, countOf0: 44, currentBet: 10, balance: 2734.799999999988
+bet start: 4364726, countOf1: 59, countOf0: 41, balance: 2734.799999999988
+bet failed: 4364946, countOf1: 60, countOf0: 40, currentBet: 10, balance: 2671.5999999999826
+bet start: 4364947, countOf1: 59, countOf0: 41, balance: 2671.5999999999826
+bet failed: 4365114, countOf1: 38, countOf0: 62, currentBet: 20, balance: 2546.799999999977
+bet start: 4365237, countOf1: 41, countOf0: 59, balance: 2546.799999999977
+bet end: 4365246, countOf1: 46, countOf0: 54, currentBet: 40, balance: 2826.799999999977
+bet start: 4365298, countOf1: 59, countOf0: 41, balance: 2826.799999999977
+bet end: 4365413, countOf1: 45, countOf0: 55, currentBet: 10, balance: 2891.9999999999714
+bet start: 4366363, countOf1: 41, countOf0: 59, balance: 2891.9999999999714
+bet failed: 4366494, countOf1: 50, countOf0: 50, currentBet: 10, balance: 2821.9999999999714
+bet start: 4366561, countOf1: 41, countOf0: 59, balance: 2821.9999999999714
+bet end: 4366594, countOf1: 44, countOf0: 56, currentBet: 20, balance: 2961.9999999999714
+bet start: 4367499, countOf1: 41, countOf0: 59, balance: 2961.9999999999714
+bet failed: 4367622, countOf1: 52, countOf0: 48, currentBet: 10, balance: 2891.9999999999714
+bet start: 4368176, countOf1: 59, countOf0: 41, balance: 2891.9999999999714
+bet failed: 4368286, countOf1: 54, countOf0: 46, currentBet: 20, balance: 2770.399999999971
+bet start: 4368515, countOf1: 59, countOf0: 41, balance: 2770.399999999971
+bet failed: 4368770, countOf1: 49, countOf0: 51, currentBet: 40, balance: 2528.799999999978
+bet start: 4369235, countOf1: 41, countOf0: 59, balance: 2528.799999999978
+bet failed: 4369346, countOf1: 42, countOf0: 58, currentBet: 80, balance: 1968.799999999978
+bet start: 4369619, countOf1: 41, countOf0: 59, balance: 1968.799999999978
+bet failed: 4369782, countOf1: 47, countOf0: 53, currentBet: 160, balance: 848.7999999999779
+bet start: 4369937, countOf1: 41, countOf0: 59, balance: 848.7999999999779
+bet end: 4369954, countOf1: 44, countOf0: 56, currentBet: 320, balance: 3088.799999999978
+bet start: 4370255, countOf1: 41, countOf0: 59, balance: 3088.799999999978
+bet end: 4370274, countOf1: 45, countOf0: 55, currentBet: 10, balance: 3158.799999999978
+bet start: 4370921, countOf1: 59, countOf0: 41, balance: 3158.799999999978
+bet failed: 4371055, countOf1: 44, countOf0: 56, currentBet: 10, balance: 3093.1999999999766
+bet start: 4371062, countOf1: 41, countOf0: 59, balance: 3093.1999999999766
+bet end: 4371147, countOf1: 50, countOf0: 50, currentBet: 20, balance: 3233.1999999999766
+bet start: 4371192, countOf1: 59, countOf0: 41, balance: 3233.1999999999766
+bet failed: 4371342, countOf1: 61, countOf0: 39, currentBet: 10, balance: 3164.3999999999746
+bet start: 4371343, countOf1: 61, countOf0: 39, balance: 3164.3999999999746
+bet failed: 4371471, countOf1: 55, countOf0: 45, currentBet: 20, balance: 3035.5999999999726
+bet start: 4372036, countOf1: 59, countOf0: 41, balance: 3035.5999999999726
+bet failed: 4372229, countOf1: 43, countOf0: 57, currentBet: 40, balance: 2765.1999999999766
+bet start: 4372890, countOf1: 59, countOf0: 41, balance: 2765.1999999999766
+bet end: 4372931, countOf1: 53, countOf0: 47, currentBet: 80, balance: 3248.399999999981
+bet start: 4373680, countOf1: 59, countOf0: 41, balance: 3248.399999999981
+bet failed: 4373796, countOf1: 58, countOf0: 42, currentBet: 10, balance: 3186.3999999999805
+bet start: 4373810, countOf1: 59, countOf0: 41, balance: 3186.3999999999805
+bet failed: 4373965, countOf1: 51, countOf0: 49, currentBet: 20, balance: 3066.399999999976
+bet start: 4374596, countOf1: 59, countOf0: 41, balance: 3066.399999999976
+bet failed: 4374746, countOf1: 44, countOf0: 56, currentBet: 40, balance: 2791.199999999978
+bet start: 4374949, countOf1: 41, countOf0: 59, balance: 2791.199999999978
+bet failed: 4375068, countOf1: 57, countOf0: 43, currentBet: 80, balance: 2231.199999999978
+bet start: 4375071, countOf1: 59, countOf0: 41, balance: 2231.199999999978
+bet failed: 4375185, countOf1: 42, countOf0: 58, currentBet: 160, balance: 1245.5999999999776
+bet start: 4375186, countOf1: 41, countOf0: 59, balance: 1245.5999999999776
+bet end: 4375209, countOf1: 44, countOf0: 56, currentBet: 320, balance: 3485.5999999999776
+bet start: 4375421, countOf1: 59, countOf0: 41, balance: 3485.5999999999776
+bet end: 4375485, countOf1: 51, countOf0: 49, currentBet: 10, balance: 3551.1999999999744
+bet start: 4375583, countOf1: 59, countOf0: 41, balance: 3551.1999999999744
+bet end: 4375639, countOf1: 54, countOf0: 46, currentBet: 10, balance: 3618.3999999999714
+bet start: 4375837, countOf1: 41, countOf0: 59, balance: 3618.3999999999714
+bet failed: 4375980, countOf1: 63, countOf0: 37, currentBet: 10, balance: 3548.3999999999714
+bet start: 4375981, countOf1: 63, countOf0: 37, balance: 3548.3999999999714
+bet failed: 4376113, countOf1: 54, countOf0: 46, currentBet: 20, balance: 3417.999999999969
+bet start: 4377840, countOf1: 41, countOf0: 59, balance: 3417.999999999969
+bet end: 4377881, countOf1: 47, countOf0: 53, currentBet: 40, balance: 3697.999999999969
+bet start: 4377997, countOf1: 41, countOf0: 59, balance: 3697.999999999969
+bet end: 4378034, countOf1: 50, countOf0: 50, currentBet: 10, balance: 3767.999999999969
+bet start: 4378431, countOf1: 41, countOf0: 59, balance: 3767.999999999969
+bet end: 4378454, countOf1: 46, countOf0: 54, currentBet: 10, balance: 3837.999999999969
+bet start: 4378488, countOf1: 41, countOf0: 59, balance: 3837.999999999969
+bet end: 4378607, countOf1: 51, countOf0: 49, currentBet: 10, balance: 3907.999999999969
+bet start: 4378706, countOf1: 41, countOf0: 59, balance: 3907.999999999969
+bet failed: 4378835, countOf1: 42, countOf0: 58, currentBet: 10, balance: 3837.999999999969
+bet start: 4378839, countOf1: 41, countOf0: 59, balance: 3837.999999999969
+bet end: 4378884, countOf1: 45, countOf0: 55, currentBet: 20, balance: 3977.999999999969
+bet start: 4379315, countOf1: 41, countOf0: 59, balance: 3977.999999999969
+bet failed: 4379426, countOf1: 46, countOf0: 54, currentBet: 10, balance: 3907.999999999969
+bet start: 4379567, countOf1: 41, countOf0: 59, balance: 3907.999999999969
+bet end: 4379642, countOf1: 48, countOf0: 52, currentBet: 20, balance: 4047.999999999969
+bet start: 4379845, countOf1: 41, countOf0: 59, balance: 4047.999999999969
+bet end: 4379862, countOf1: 48, countOf0: 52, currentBet: 10, balance: 4117.999999999969
+bet start: 4380215, countOf1: 41, countOf0: 59, balance: 4117.999999999969
+bet end: 4380250, countOf1: 46, countOf0: 54, currentBet: 10, balance: 4187.999999999969
+bet start: 4380507, countOf1: 41, countOf0: 59, balance: 4187.999999999969
+bet failed: 4380614, countOf1: 52, countOf0: 48, currentBet: 10, balance: 4117.999999999969
+bet start: 4381312, countOf1: 59, countOf0: 41, balance: 4117.999999999969
+bet failed: 4381438, countOf1: 55, countOf0: 45, currentBet: 20, balance: 3989.9999999999673
+bet start: 4383044, countOf1: 59, countOf0: 41, balance: 3989.9999999999673
+bet end: 4383057, countOf1: 56, countOf0: 44, currentBet: 40, balance: 4253.999999999965
+bet start: 4383359, countOf1: 59, countOf0: 41, balance: 4253.999999999965
+bet end: 4383402, countOf1: 53, countOf0: 47, currentBet: 10, balance: 4313.9999999999745
+bet start: 4383461, countOf1: 41, countOf0: 59, balance: 4313.9999999999745
+bet end: 4383526, countOf1: 50, countOf0: 50, currentBet: 10, balance: 4383.9999999999745
+bet start: 4384809, countOf1: 41, countOf0: 59, balance: 4383.9999999999745
+bet failed: 4384954, countOf1: 53, countOf0: 47, currentBet: 10, balance: 4313.9999999999745
+bet start: 4385141, countOf1: 41, countOf0: 59, balance: 4313.9999999999745
+bet failed: 4385282, countOf1: 49, countOf0: 51, currentBet: 20, balance: 4173.9999999999745
+bet start: 4385394, countOf1: 41, countOf0: 59, balance: 4173.9999999999745
+bet failed: 4385563, countOf1: 53, countOf0: 47, currentBet: 40, balance: 3893.9999999999745
+bet start: 4386035, countOf1: 41, countOf0: 59, balance: 3893.9999999999745
+bet end: 4386072, countOf1: 42, countOf0: 58, currentBet: 80, balance: 4453.9999999999745
+bet start: 4386867, countOf1: 59, countOf0: 41, balance: 4453.9999999999745
+bet end: 4386900, countOf1: 54, countOf0: 46, currentBet: 10, balance: 4515.999999999982
+bet start: 4386917, countOf1: 59, countOf0: 41, balance: 4515.999999999982
+bet failed: 4387033, countOf1: 54, countOf0: 46, currentBet: 10, balance: 4453.999999999984
+bet start: 4387792, countOf1: 59, countOf0: 41, balance: 4453.999999999984
+bet end: 4387840, countOf1: 53, countOf0: 47, currentBet: 20, balance: 4591.5999999999785
+bet start: 4388039, countOf1: 59, countOf0: 41, balance: 4591.5999999999785
+bet failed: 4388218, countOf1: 45, countOf0: 55, currentBet: 10, balance: 4526.799999999992
+bet start: 4388470, countOf1: 41, countOf0: 59, balance: 4526.799999999992
+bet end: 4388549, countOf1: 51, countOf0: 49, currentBet: 20, balance: 4666.799999999992
+bet start: 4388623, countOf1: 41, countOf0: 59, balance: 4666.799999999992
+bet end: 4388672, countOf1: 45, countOf0: 55, currentBet: 10, balance: 4736.799999999992
+bet start: 4389459, countOf1: 59, countOf0: 41, balance: 4736.799999999992
+bet end: 4389480, countOf1: 56, countOf0: 44, currentBet: 10, balance: 4801.199999999997
+bet start: 4390028, countOf1: 40, countOf0: 60, balance: 4801.199999999997
+bet failed: 4390149, countOf1: 54, countOf0: 46, currentBet: 10, balance: 4731.199999999997
+bet start: 4390891, countOf1: 41, countOf0: 59, balance: 4731.199999999997
+bet failed: 4391018, countOf1: 47, countOf0: 53, currentBet: 20, balance: 4591.199999999997
+bet start: 4391719, countOf1: 64, countOf0: 36, balance: 4591.199999999997
+bet failed: 4391843, countOf1: 38, countOf0: 62, currentBet: 40, balance: 4336.799999999994
+bet start: 4391844, countOf1: 37, countOf0: 63, balance: 4336.799999999994
+bet end: 4391857, countOf1: 43, countOf0: 57, currentBet: 80, balance: 4896.799999999994
+bet start: 4391870, countOf1: 41, countOf0: 59, balance: 4896.799999999994
+bet end: 4391881, countOf1: 45, countOf0: 55, currentBet: 10, balance: 4966.799999999994
+bet start: 4392282, countOf1: 59, countOf0: 41, balance: 4966.799999999994
+bet end: 4392307, countOf1: 53, countOf0: 47, currentBet: 10, balance: 5030.4
+bet start: 4392323, countOf1: 59, countOf0: 41, balance: 5030.4
+bet failed: 4392473, countOf1: 48, countOf0: 52, currentBet: 10, balance: 4961.600000000008
+bet start: 4392562, countOf1: 59, countOf0: 41, balance: 4961.600000000008
+bet failed: 4392672, countOf1: 51, countOf0: 49, currentBet: 20, balance: 4840.000000000007
+bet start: 4392857, countOf1: 59, countOf0: 41, balance: 4840.000000000007
+bet end: 4392964, countOf1: 47, countOf0: 53, currentBet: 40, balance: 5107.199999999986
+bet start: 4393600, countOf1: 41, countOf0: 59, balance: 5107.199999999986
+bet failed: 4393719, countOf1: 49, countOf0: 51, currentBet: 10, balance: 5037.199999999986
+bet start: 4395104, countOf1: 41, countOf0: 59, balance: 5037.199999999986
+bet failed: 4395455, countOf1: 48, countOf0: 52, currentBet: 20, balance: 4897.199999999986
+bet start: 4395615, countOf1: 41, countOf0: 59, balance: 4897.199999999986
+bet failed: 4395832, countOf1: 56, countOf0: 44, currentBet: 40, balance: 4617.199999999986
+bet start: 4396238, countOf1: 41, countOf0: 59, balance: 4617.199999999986
+bet end: 4396271, countOf1: 47, countOf0: 53, currentBet: 80, balance: 5177.199999999986
+bet start: 4396695, countOf1: 59, countOf0: 41, balance: 5177.199999999986
+bet end: 4396732, countOf1: 55, countOf0: 45, currentBet: 10, balance: 5238.399999999994
+bet start: 4397253, countOf1: 59, countOf0: 41, balance: 5238.399999999994
+bet failed: 4397458, countOf1: 48, countOf0: 52, currentBet: 10, balance: 5168.400000000012
+bet start: 4398224, countOf1: 59, countOf0: 41, balance: 5168.400000000012
+bet end: 4398243, countOf1: 54, countOf0: 46, currentBet: 20, balance: 5298.00000000001
+bet start: 4398323, countOf1: 41, countOf0: 59, balance: 5298.00000000001
+bet end: 4398366, countOf1: 50, countOf0: 50, currentBet: 10, balance: 5368.00000000001
+bet start: 4398426, countOf1: 59, countOf0: 41, balance: 5368.00000000001
+bet failed: 4398540, countOf1: 50, countOf0: 50, currentBet: 10, balance: 5306.4000000000115
+bet start: 4399267, countOf1: 41, countOf0: 59, balance: 5306.4000000000115
+bet end: 4399348, countOf1: 50, countOf0: 50, currentBet: 20, balance: 5446.4000000000115
+bet start: 4399686, countOf1: 41, countOf0: 59, balance: 5446.4000000000115
+bet end: 4399699, countOf1: 46, countOf0: 54, currentBet: 10, balance: 5516.4000000000115
+bet start: 4399922, countOf1: 41, countOf0: 59, balance: 5516.4000000000115
+bet failed: 4400047, countOf1: 48, countOf0: 52, currentBet: 10, balance: 5446.4000000000115
+bet start: 4401070, countOf1: 59, countOf0: 41, balance: 5446.4000000000115
+bet failed: 4401186, countOf1: 54, countOf0: 46, currentBet: 20, balance: 5322.400000000011
+bet start: 4401447, countOf1: 59, countOf0: 41, balance: 5322.400000000011
+bet end: 4401499, countOf1: 48, countOf0: 52, currentBet: 40, balance: 5594.4
+bet start: 4401612, countOf1: 59, countOf0: 41, balance: 5594.4
+bet end: 4401627, countOf1: 54, countOf0: 46, currentBet: 10, balance: 5660.000000000004
+bet start: 4402509, countOf1: 41, countOf0: 59, balance: 5660.000000000004
+bet failed: 4402634, countOf1: 51, countOf0: 49, currentBet: 10, balance: 5590.000000000004
+bet start: 4402684, countOf1: 41, countOf0: 59, balance: 5590.000000000004
+bet failed: 4402827, countOf1: 43, countOf0: 57, currentBet: 20, balance: 5450.000000000004
+bet start: 4403235, countOf1: 41, countOf0: 59, balance: 5450.000000000004
+bet end: 4403284, countOf1: 43, countOf0: 57, currentBet: 40, balance: 5730.000000000004
+bet start: 4403526, countOf1: 41, countOf0: 59, balance: 5730.000000000004
+bet end: 4403581, countOf1: 46, countOf0: 54, currentBet: 10, balance: 5800.000000000004
+bet start: 4403875, countOf1: 59, countOf0: 41, balance: 5800.000000000004
+bet end: 4403916, countOf1: 58, countOf0: 42, currentBet: 10, balance: 5860.400000000012
+bet start: 4404353, countOf1: 41, countOf0: 59, balance: 5860.400000000012
+bet end: 4404504, countOf1: 54, countOf0: 46, currentBet: 10, balance: 5930.400000000012
+bet start: 4404730, countOf1: 59, countOf0: 41, balance: 5930.400000000012
+bet end: 4404749, countOf1: 53, countOf0: 47, currentBet: 10, balance: 5995.200000000017
+bet start: 4404935, countOf1: 41, countOf0: 59, balance: 5995.200000000017
+bet end: 4404980, countOf1: 48, countOf0: 52, currentBet: 10, balance: 6065.200000000017
+bet start: 4405165, countOf1: 59, countOf0: 41, balance: 6065.200000000017
+bet end: 4405206, countOf1: 55, countOf0: 45, currentBet: 10, balance: 6125.600000000026
+bet start: 4405266, countOf1: 41, countOf0: 59, balance: 6125.600000000026
+bet failed: 4405379, countOf1: 46, countOf0: 54, currentBet: 10, balance: 6055.600000000026
+bet start: 4405857, countOf1: 41, countOf0: 59, balance: 6055.600000000026
+bet failed: 4406010, countOf1: 59, countOf0: 41, currentBet: 20, balance: 5915.600000000026
+bet start: 4406011, countOf1: 60, countOf0: 40, balance: 5915.600000000026
+bet end: 4406050, countOf1: 50, countOf0: 50, currentBet: 40, balance: 6158.8000000000175
+bet start: 4406083, countOf1: 41, countOf0: 59, balance: 6158.8000000000175
+bet failed: 4406232, countOf1: 45, countOf0: 55, currentBet: 10, balance: 6088.8000000000175
+bet start: 4406358, countOf1: 41, countOf0: 59, balance: 6088.8000000000175
+bet end: 4406423, countOf1: 48, countOf0: 52, currentBet: 20, balance: 6228.8000000000175
+bet start: 4406739, countOf1: 41, countOf0: 59, balance: 6228.8000000000175
+bet end: 4406810, countOf1: 51, countOf0: 49, currentBet: 10, balance: 6298.8000000000175
+bet start: 4406919, countOf1: 59, countOf0: 41, balance: 6298.8000000000175
+bet end: 4406946, countOf1: 55, countOf0: 45, currentBet: 10, balance: 6362.000000000024
+bet start: 4407082, countOf1: 59, countOf0: 41, balance: 6362.000000000024
+bet failed: 4407206, countOf1: 55, countOf0: 45, currentBet: 10, balance: 6298.400000000027
+bet start: 4409573, countOf1: 41, countOf0: 59, balance: 6298.400000000027
+bet failed: 4409694, countOf1: 52, countOf0: 48, currentBet: 20, balance: 6158.400000000027
+bet start: 4409792, countOf1: 41, countOf0: 59, balance: 6158.400000000027
+bet failed: 4409931, countOf1: 47, countOf0: 53, currentBet: 40, balance: 5878.400000000027
+bet start: 4409965, countOf1: 41, countOf0: 59, balance: 5878.400000000027
+bet failed: 4410072, countOf1: 53, countOf0: 47, currentBet: 80, balance: 5318.400000000027
+bet start: 4410623, countOf1: 61, countOf0: 39, balance: 5318.400000000027
+bet end: 4410638, countOf1: 55, countOf0: 45, currentBet: 160, balance: 6368.000000000031
+bet start: 4410851, countOf1: 59, countOf0: 41, balance: 6368.000000000031
+bet end: 4410892, countOf1: 55, countOf0: 45, currentBet: 10, balance: 6428.40000000004
+bet start: 4411275, countOf1: 41, countOf0: 59, balance: 6428.40000000004
+bet end: 4411326, countOf1: 47, countOf0: 53, currentBet: 10, balance: 6498.40000000004
+bet start: 4411528, countOf1: 41, countOf0: 59, balance: 6498.40000000004
+bet end: 4411555, countOf1: 48, countOf0: 52, currentBet: 10, balance: 6568.40000000004
+bet start: 4411792, countOf1: 41, countOf0: 59, balance: 6568.40000000004
+bet failed: 4411931, countOf1: 48, countOf0: 52, currentBet: 10, balance: 6498.40000000004
+bet start: 4412798, countOf1: 41, countOf0: 59, balance: 6498.40000000004
+bet end: 4412949, countOf1: 52, countOf0: 48, currentBet: 20, balance: 6638.40000000004
+bet start: 4413015, countOf1: 41, countOf0: 59, balance: 6638.40000000004
+bet end: 4413080, countOf1: 47, countOf0: 53, currentBet: 10, balance: 6708.40000000004
+bet start: 4413354, countOf1: 41, countOf0: 59, balance: 6708.40000000004
+bet failed: 4413473, countOf1: 47, countOf0: 53, currentBet: 10, balance: 6638.40000000004
+bet start: 4413611, countOf1: 41, countOf0: 59, balance: 6638.40000000004
+bet failed: 4413798, countOf1: 55, countOf0: 45, currentBet: 20, balance: 6498.40000000004
+bet start: 4414146, countOf1: 41, countOf0: 59, balance: 6498.40000000004
+bet failed: 4414279, countOf1: 40, countOf0: 60, currentBet: 40, balance: 6218.40000000004
+bet start: 4414280, countOf1: 41, countOf0: 59, balance: 6218.40000000004
+bet failed: 4414445, countOf1: 46, countOf0: 54, currentBet: 80, balance: 5658.40000000004
+bet start: 4414861, countOf1: 41, countOf0: 59, balance: 5658.40000000004
+bet failed: 4414980, countOf1: 53, countOf0: 47, currentBet: 160, balance: 4538.40000000004
+bet start: 4415153, countOf1: 59, countOf0: 41, balance: 4538.40000000004
+bet failed: 4415354, countOf1: 53, countOf0: 47, currentBet: 320, balance: 2324.000000000031
+bet start: 4415785, countOf1: 41, countOf0: 59, balance: 2324.000000000031
+bet finished: 4415827, countOf1: 41, countOf0: 59, negative balance: -235.99999999996908
