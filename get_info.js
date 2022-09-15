@@ -22,6 +22,10 @@ const calc = (at = 0, length) => {
       dist_8 = 0,
       dist_9 = 0,
       dist_10 = 0,
+      dist_11 = 0,
+      dist_12 = 0,
+      dist_13 = 0,
+      dist_14 = 0,
       dist_1 = 0;
   let last_2 = at,
       last_3 = at,
@@ -32,6 +36,10 @@ const calc = (at = 0, length) => {
       last_8 = at,
       last_9 = at,
       last_10 = at,
+      last_11 = at,
+      last_12 = at,
+      last_13 = at,
+      last_14 = at,
       last_1 = at;
   let freq = {
     "1x": 0,
@@ -44,6 +52,10 @@ const calc = (at = 0, length) => {
     "8x": 0,
     "9x": 0,
     "10x": 0,
+    "11x": 0,
+    "12x": 0,
+    "13x": 0,
+    "14x": 0,
   };
 
   for (i = at; i < at + length; i++) {
@@ -110,6 +122,34 @@ const calc = (at = 0, length) => {
       last_10 = i;
       freq["10x"]++;
     }
+    if (data[i] >= 11) {
+      if (i - last_11 - 1 > dist_11) {
+        dist_12 = i - last_11 - 1;
+      }
+      last_11 = i;
+      freq["11x"]++;
+    }
+    if (data[i] >= 12) {
+      if (i - last_12 - 1 > dist_12) {
+        dist_12 = i - last_12 - 1;
+      }
+      last_12 = i;
+      freq["12x"]++;
+    }
+    if (data[i] >= 13) {
+      if (i - last_13 - 1 > dist_13) {
+        dist_13 = i - last_13 - 1;
+      }
+      last_13 = i;
+      freq["13x"]++;
+    }
+    if (data[i] >= 14) {
+      if (i - last_14 - 1 > dist_14) {
+        dist_14 = i - last_14 - 1;
+      }
+      last_14 = i;
+      freq["14x"]++;
+    }
     if (data[i] < 2) {
       if (i - last_1 - 1 > dist_1) {
         dist_1 = i - last_1 - 1;
@@ -140,6 +180,10 @@ const calc = (at = 0, length) => {
     5000000 / freq["8x"],
     5000000 / freq["9x"],
     5000000 / freq["10x"],
+    5000000 / freq["11x"],
+    5000000 / freq["12x"],
+    5000000 / freq["13x"],
+    5000000 / freq["14x"],
   )
   
   return ({
@@ -153,6 +197,10 @@ const calc = (at = 0, length) => {
     "8x": dist_8,
     "9x": dist_9,
     "10x": dist_10,
+    "11x": dist_11,
+    "12x": dist_12,
+    "13x": dist_13,
+    "14x": dist_14,
   })
 }
 
@@ -336,7 +384,15 @@ calcDistribution = (dist, from, length) => {
   });
 }
 
+const getProb = (length) => {
+  let i = 0;
+  for (i = 2; i < length; i++) {
+    console.log(Math.pow(10, 9) / ((99 / i) * Math.pow(10, 9) + 1) * 100)
+  }
+};
+
 calc(0, data.length);
+// getProb(20);
 // calcDistribution(100, 50000, 4000000)
 // func()
 
