@@ -251,7 +251,7 @@ const getPastResults = async (init_game_id, count = 1) => {
                 '\n10000 <= x \t ==>', last_10000x,
                 '\n10x ', max_10x_dist,' 100x ', max_100x_dist,' 1000x ', max_1000x_dist,' 10000x ', max_10000x_dist,
             )
-            calc(pattern)
+            // calc(pattern)
         } catch (e) {
             game_id = init_game_id
             console.log('loading...')
@@ -290,6 +290,6 @@ const getLastGameID = async () => {
 }
 getLastGameID().then(_ => {
     get_current_game_id().then(_ => {
-        getPastResults(game_id, 10000).then(null)
+        getPastResults(game_id, 100000).then(null)
     })
 });
