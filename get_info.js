@@ -26,6 +26,12 @@ const calc = (at = 0, length) => {
       dist_12 = 0,
       dist_13 = 0,
       dist_14 = 0,
+      dist_15 = 0,
+      dist_16 = 0,
+      dist_17 = 0,
+      dist_18 = 0,
+      dist_19 = 0,
+      dist_20 = 0,
       dist_1 = 0;
   let last_2 = at,
       last_3 = at,
@@ -40,6 +46,12 @@ const calc = (at = 0, length) => {
       last_12 = at,
       last_13 = at,
       last_14 = at,
+      last_15 = at,
+      last_16 = at,
+      last_17 = at,
+      last_18 = at,
+      last_19 = at,
+      last_20 = at,
       last_1 = at;
   let freq = {
     "1x": 0,
@@ -56,6 +68,12 @@ const calc = (at = 0, length) => {
     "12x": 0,
     "13x": 0,
     "14x": 0,
+    "15x": 0,
+    "16x": 0,
+    "17x": 0,
+    "18x": 0,
+    "19x": 0,
+    "20x": 0,
   };
 
   for (i = at; i < at + length; i++) {
@@ -150,6 +168,48 @@ const calc = (at = 0, length) => {
       last_14 = i;
       freq["14x"]++;
     }
+    if (data[i] >= 15) {
+      if (i - last_15 - 1 > dist_15) {
+        dist_15 = i - last_15 - 1;
+      }
+      last_15 = i;
+      freq["15x"]++;
+    }
+    if (data[i] >= 16) {
+      if (i - last_16 - 1 > dist_16) {
+        dist_16 = i - last_16 - 1;
+      }
+      last_16 = i;
+      freq["16x"]++;
+    }
+    if (data[i] >= 17) {
+      if (i - last_17 - 1 > dist_17) {
+        dist_17 = i - last_17 - 1;
+      }
+      last_17 = i;
+      freq["17x"]++;
+    }
+    if (data[i] >= 18) {
+      if (i - last_18 - 1 > dist_18) {
+        dist_18 = i - last_18 - 1;
+      }
+      last_18 = i;
+      freq["18x"]++;
+    }
+    if (data[i] >= 19) {
+      if (i - last_19 - 1 > dist_19) {
+        dist_19 = i - last_19 - 1;
+      }
+      last_19 = i;
+      freq["19x"]++;
+    }
+    if (data[i] >= 20) {
+      if (i - last_20 - 1 > dist_20) {
+        dist_20 = i - last_20 - 1;
+      }
+      last_20 = i;
+      freq["20x"]++;
+    }
     if (data[i] < 2) {
       if (i - last_1 - 1 > dist_1) {
         dist_1 = i - last_1 - 1;
@@ -184,6 +244,12 @@ const calc = (at = 0, length) => {
     5000000 / freq["12x"],
     5000000 / freq["13x"],
     5000000 / freq["14x"],
+    5000000 / freq["15x"],
+    5000000 / freq["16x"],
+    5000000 / freq["17x"],
+    5000000 / freq["18x"],
+    5000000 / freq["19x"],
+    5000000 / freq["20x"],
   )
   
   return ({
@@ -201,6 +267,12 @@ const calc = (at = 0, length) => {
     "12x": dist_12,
     "13x": dist_13,
     "14x": dist_14,
+    "15x": dist_15,
+    "16x": dist_16,
+    "17x": dist_17,
+    "18x": dist_18,
+    "19x": dist_19,
+    "20x": dist_20,
   })
 }
 
@@ -391,7 +463,24 @@ const getProb = (length) => {
   }
 };
 
+const getBaseCase = (payout, length) => {
+  let i = 0, prevIndex = 0, count1 = 0, count = 0;
+
+  for (i = 0; i < data.length; i++) {
+    if (data[i] >= 10) {
+      count++;
+      if (i - prevIndex > 50) {
+        count1++;
+      }
+      prevIndex = i;
+    }
+  }
+
+  console.log(count1, count)
+}
+
 calc(0, data.length);
+// getBaseCase();
 // getProb(20);
 // calcDistribution(100, 50000, 4000000)
 // func()

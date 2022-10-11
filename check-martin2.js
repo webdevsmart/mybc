@@ -385,7 +385,7 @@ const getPayout2 = (at, showlog = false) => {
 
 const calc3 = (balance, at = 0, length) => {
   let i = 0;
-  let amount = 0.5;
+  let amount = 5;
   let prevIndex = at;
   let xxx = 1;
   let max_xxx = 1;
@@ -393,10 +393,9 @@ const calc3 = (balance, at = 0, length) => {
   
   for (i = at; i < data.length; i++) {
     if (payout > 0) {
-      balance -= amount * xxx;
+      balance -= amount;
 
       if (balance < 0) {
-        balance += amount * xxx;
         console.log("minus balance", i)
         break;
       }
@@ -404,7 +403,7 @@ const calc3 = (balance, at = 0, length) => {
 
     if (payout == 1) {
       if (data[i] < 2) {
-        balance += amount * xxx * 1.96;
+        balance += amount * 0.96;
         xxx = 1;
         prevIndex = i;
         // payout = getPayout(i + 1, 100, 4)
@@ -414,8 +413,8 @@ const calc3 = (balance, at = 0, length) => {
           break;
       }
     } else if (payout > 1) {
-      if (data[i] >= payout) {
-        balance += amount * xxx * payout;
+      if (data[i] >= 2) {
+        balance += amount;
         xxx = 1;
         prevIndex = i;
         // payout = getPayout(i + 1, 100, 4)
@@ -430,16 +429,6 @@ const calc3 = (balance, at = 0, length) => {
       // payout = getPayout(i + 1, 100, 4)
       payout = getPayout2(i + 1, payout)
     }
-
-    if (payout == 1) {
-      xxx = Math.pow(2, parseInt((i - prevIndex)));
-    } else if (payout > 5) {
-      xxx = Math.pow(2, parseInt((i - prevIndex) / payout * 2));
-    } else if (payout > 1) {
-      xxx = Math.pow(2, parseInt((i - prevIndex) / payout * 2));
-    }
-    if (max_xxx < xxx)
-      max_xxx = xxx;
   }
 
   console.log("index: " + at + ", balance: " + balance + ", max_xxx: " + max_xxx + ", payout: " + payout)
@@ -479,46 +468,46 @@ const calc4 = (at = 0, length) => {
 }
 
 // calc4(300000, 100000);
-// calc3(1000, 4490802, 1000)
+calc3(1000, 10000, 10)
 
-let k = 10000, log = "", failCount = 0, winCount = 0, total = 0, initialBalance = 500, period = 500;
-let failPayouts = {
-  "2x": 0,
-  "4x": 0,
-  "6x": 0,
-  "8x": 0,
-  "10x": 0,
-  "12x": 0,
-  "14x": 0,
-  "16x": 0,
-  "18x": 0,
-  "20x": 0,
-  "1x": 0,
-};
+// let k = 10000, log = "", failCount = 0, winCount = 0, total = 0, initialBalance = 1000, period = 1000;
+// let failPayouts = {
+//   "2x": 0,
+//   "4x": 0,
+//   "6x": 0,
+//   "8x": 0,
+//   "10x": 0,
+//   "12x": 0,
+//   "14x": 0,
+//   "16x": 0,
+//   "18x": 0,
+//   "20x": 0,
+//   "1x": 0,
+// };
 
-let bet = true;
-let str = ""
-for (k = 15000; k < 5000000;) {
-  res = calc3(initialBalance, k, period)
-  // if (res.balance < 0)
-  //   break;
-  if (bet == true)
-    total += res.balance - initialBalance
-  if (res.balance < initialBalance) {
-    failCount++;
-    failPayouts[res.payout + "x"]++;
-    k = res.i;
-    bet = false;
-    str += "0";
-  }
-  else {
-    k = res.i;
-    bet = true;
-    winCount++;
-    str += "1"
-  }
-}
-console.log(str)
-console.log(winCount, failCount, total)
-console.log(failPayouts)
+// let bet = true;
+// let str = ""
+// for (k = 15000; k < 50000;) {
+//   res = calc3(initialBalance, k, period)
+//   // if (res.balance < 0)
+//   //   break;
+//   if (bet == true)
+//     total += res.balance - initialBalance
+//   if (res.balance < initialBalance) {
+//     failCount++;
+//     failPayouts[res.payout + "x"]++;
+//     k = res.i;
+//     bet = false;
+//     str += "0";
+//   }
+//   else {
+//     k = res.i;
+//     bet = true;
+//     winCount++;
+//     str += "1"
+//   }
+// }
+// console.log(str)
+// console.log(winCount, failCount, total)
+// console.log(failPayouts)
 // getPayout(155164, 100, 10, true)

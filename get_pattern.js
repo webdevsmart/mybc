@@ -28,7 +28,7 @@ const gameResult = (seed, salt) => {
   return Math.max(1, result / 100);
 };
 
-const salt = "0000000000000000000e3a66df611d6935b30632f352e4934c21059696117f28";
+const salt = "000000000000000000030587dd9ded1fcc5d603652da58deb670319bd2e09445";
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
 
