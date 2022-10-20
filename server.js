@@ -74,6 +74,7 @@ const getPastResults = async (init_game_id, count = 1) => {
             }
             console.log('---------------------\nGameID', game_id)
             let game_hash = response['data']['gb']['extend']['hash']
+            console.log('---------------------\nHash', game_hash)
             let prevHash = null;
             for (let i = 0; i < count; i++) {
                 let hash = String(prevHash ? CryptoJS.SHA256(String(prevHash)) : game_hash);
@@ -286,7 +287,6 @@ const getLastGameID = async () => {
             continue;
         }
     }
-
 }
 getLastGameID().then(_ => {
     get_current_game_id().then(_ => {
