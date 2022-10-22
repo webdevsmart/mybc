@@ -16,7 +16,7 @@ calc = () => {
       fs.writeFileSync("./hash.txt", hashes.join(","));
       i = 0;
     }
-    if (hash == target) {
+    if (hash == target || hash == "4acc6ea1eb43f8bf8583c75b853b4f8e71423a931a818591cdac1488915e9ba1") {
       hashes[i] = hash;
       for (i = i + 1; i < cycle; i++) {
         hashes[i] = "";

@@ -479,7 +479,39 @@ const getBaseCase = (payout, length) => {
   console.log(count1, count)
 }
 
-calc(0, data.length);
+const getMaxContinue = (fromX, toX) => {
+  let i = 0, j = 0, count = 0, maxCount = 0;
+  let badcases = [];
+
+  for (i = 0; i < data.length; i++) {
+    if (data[i] >= fromX && data[i] < toX) {
+      prevIndex = i;
+      count = 1;
+      while(true) {
+        prevIndex++;
+        if (data[prevIndex] < toX) {
+          if (data[prevIndex] >= fromX) 
+            count++;
+        } else {
+          break;
+        }
+      }
+      if (maxCount < count) {
+        maxCount = count;
+      }
+      if (count > 5) {
+        badcases.push(i)
+      }
+      i = prevIndex;
+    }
+  }
+
+  console.log(maxCount)
+  console.log(badcases, badcases.length)
+}
+
+getMaxContinue(2, 4);
+// calc(0, data.length);
 // getBaseCase();
 // getProb(20);
 // calcDistribution(100, 50000, 4000000)

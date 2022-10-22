@@ -11,7 +11,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}\\verify6.js"
+      "program": "${workspaceFolder}\\get_info.js"
     }
   ]
 }
